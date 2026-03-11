@@ -35,7 +35,7 @@ def fetch_jobs():
         }
 
         headers = {
-            "x-rapidapi-key": "12b0db3393msha19f9b552ecb76fp1c94f5jsnb149696993c9",
+            "x-rapidapi-key": "ENTER API KEY",
             "x-rapidapi-host": "indeed-scraper-api.p.rapidapi.com",
             "Content-Type": "application/json"
         }
@@ -64,8 +64,8 @@ def fetch_jobs():
 
 # ------------------------ EMAIL FUNCTION ------------------------
 def send_email(file_path):
-    EMAIL_ADDRESS = "mickulms.7@gmail.com"        # Replace with your email
-    EMAIL_PASSWORD = "adsx sfun mquc qmap"          # Use app password if Gmail
+    EMAIL_ADDRESS = "EMAIL"        # Replace with your email
+    EMAIL_PASSWORD = "PASSWORD"          # Use app password if Gmail
 
     msg = EmailMessage()
     msg['Subject'] = 'Latest Data Science Jobs'
